@@ -49,7 +49,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ParalDownsizer.cs" />
+    <Compile Include="ThreadedDownsizer.cs" />
     <Compile Include="ParallelICustomImageScalerForm.cs">
       <SubType>Form</SubType>
     </Compile>

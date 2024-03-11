@@ -71,9 +71,10 @@
             // 
             this.ChooseImageButton.BackColor = System.Drawing.Color.White;
             this.ChooseImageButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.ChooseImageButton.Location = new System.Drawing.Point(16, 48);
+            this.ChooseImageButton.Location = new System.Drawing.Point(20, 58);
+            this.ChooseImageButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.ChooseImageButton.Name = "ChooseImageButton";
-            this.ChooseImageButton.Size = new System.Drawing.Size(218, 74);
+            this.ChooseImageButton.Size = new System.Drawing.Size(266, 89);
             this.ChooseImageButton.TabIndex = 0;
             this.ChooseImageButton.Text = "Upload image";
             this.ChooseImageButton.UseVisualStyleBackColor = false;
@@ -83,14 +84,15 @@
             // 
             this.ScaleFactorNumeric.BackColor = System.Drawing.Color.White;
             this.ScaleFactorNumeric.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.ScaleFactorNumeric.Location = new System.Drawing.Point(828, 87);
+            this.ScaleFactorNumeric.Location = new System.Drawing.Point(1012, 104);
+            this.ScaleFactorNumeric.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.ScaleFactorNumeric.Minimum = new decimal(new int[] {
             1,
             0,
             0,
             0});
             this.ScaleFactorNumeric.Name = "ScaleFactorNumeric";
-            this.ScaleFactorNumeric.Size = new System.Drawing.Size(176, 35);
+            this.ScaleFactorNumeric.Size = new System.Drawing.Size(215, 39);
             this.ScaleFactorNumeric.TabIndex = 1;
             this.ScaleFactorNumeric.Value = new decimal(new int[] {
             1,
@@ -102,9 +104,10 @@
             // 
             this.ResizeSequentialButton.BackColor = System.Drawing.Color.White;
             this.ResizeSequentialButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.ResizeSequentialButton.Location = new System.Drawing.Point(495, 63);
+            this.ResizeSequentialButton.Location = new System.Drawing.Point(605, 76);
+            this.ResizeSequentialButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.ResizeSequentialButton.Name = "ResizeSequentialButton";
-            this.ResizeSequentialButton.Size = new System.Drawing.Size(178, 59);
+            this.ResizeSequentialButton.Size = new System.Drawing.Size(218, 71);
             this.ResizeSequentialButton.TabIndex = 2;
             this.ResizeSequentialButton.Text = "Sequential";
             this.ResizeSequentialButton.UseVisualStyleBackColor = false;
@@ -114,9 +117,10 @@
             // 
             this.ResizeParallelButton.BackColor = System.Drawing.Color.White;
             this.ResizeParallelButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.ResizeParallelButton.Location = new System.Drawing.Point(287, 63);
+            this.ResizeParallelButton.Location = new System.Drawing.Point(351, 76);
+            this.ResizeParallelButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.ResizeParallelButton.Name = "ResizeParallelButton";
-            this.ResizeParallelButton.Size = new System.Drawing.Size(176, 59);
+            this.ResizeParallelButton.Size = new System.Drawing.Size(215, 71);
             this.ResizeParallelButton.TabIndex = 3;
             this.ResizeParallelButton.Text = "Parallel";
             this.ResizeParallelButton.UseVisualStyleBackColor = false;
@@ -124,9 +128,10 @@
             // 
             // resizedPictureBox
             // 
-            this.resizedPictureBox.Location = new System.Drawing.Point(695, 199);
+            this.resizedPictureBox.Location = new System.Drawing.Point(849, 239);
+            this.resizedPictureBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.resizedPictureBox.Name = "resizedPictureBox";
-            this.resizedPictureBox.Size = new System.Drawing.Size(374, 276);
+            this.resizedPictureBox.Size = new System.Drawing.Size(457, 331);
             this.resizedPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.resizedPictureBox.TabIndex = 5;
             this.resizedPictureBox.TabStop = false;
@@ -135,9 +140,10 @@
             // 
             this.originalImageLabel.AutoSize = true;
             this.originalImageLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.originalImageLabel.Location = new System.Drawing.Point(12, 156);
+            this.originalImageLabel.Location = new System.Drawing.Point(15, 187);
+            this.originalImageLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.originalImageLabel.Name = "originalImageLabel";
-            this.originalImageLabel.Size = new System.Drawing.Size(192, 29);
+            this.originalImageLabel.Size = new System.Drawing.Size(222, 32);
             this.originalImageLabel.TabIndex = 6;
             this.originalImageLabel.Text = "Uploaded image";
             // 
@@ -145,9 +151,10 @@
             // 
             this.resizedImageLabel.AutoSize = true;
             this.resizedImageLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.resizedImageLabel.Location = new System.Drawing.Point(690, 156);
+            this.resizedImageLabel.Location = new System.Drawing.Point(843, 187);
+            this.resizedImageLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.resizedImageLabel.Name = "resizedImageLabel";
-            this.resizedImageLabel.Size = new System.Drawing.Size(205, 29);
+            this.resizedImageLabel.Size = new System.Drawing.Size(238, 32);
             this.resizedImageLabel.TabIndex = 7;
             this.resizedImageLabel.Text = "Downsized image";
             // 
@@ -155,9 +162,10 @@
             // 
             this.scaleFactorNumericLabel.AutoSize = true;
             this.scaleFactorNumericLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.scaleFactorNumericLabel.Location = new System.Drawing.Point(823, 28);
+            this.scaleFactorNumericLabel.Location = new System.Drawing.Point(1006, 34);
+            this.scaleFactorNumericLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.scaleFactorNumericLabel.Name = "scaleFactorNumericLabel";
-            this.scaleFactorNumericLabel.Size = new System.Drawing.Size(181, 25);
+            this.scaleFactorNumericLabel.Size = new System.Drawing.Size(222, 29);
             this.scaleFactorNumericLabel.TabIndex = 8;
             this.scaleFactorNumericLabel.Text = "Downscaling factor ";
             // 
@@ -165,9 +173,10 @@
             // 
             this.resizingTypeLabel.AutoSize = true;
             this.resizingTypeLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.resizingTypeLabel.Location = new System.Drawing.Point(353, 28);
+            this.resizingTypeLabel.Location = new System.Drawing.Point(431, 34);
+            this.resizingTypeLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.resizingTypeLabel.Name = "resizingTypeLabel";
-            this.resizingTypeLabel.Size = new System.Drawing.Size(256, 29);
+            this.resizingTypeLabel.Size = new System.Drawing.Size(299, 32);
             this.resizingTypeLabel.TabIndex = 9;
             this.resizingTypeLabel.Text = "Choose downsize type";
             // 
@@ -175,9 +184,10 @@
             // 
             this.ClearButton.BackColor = System.Drawing.Color.White;
             this.ClearButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.ClearButton.Location = new System.Drawing.Point(1101, 33);
+            this.ClearButton.Location = new System.Drawing.Point(1346, 40);
+            this.ClearButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.ClearButton.Name = "ClearButton";
-            this.ClearButton.Size = new System.Drawing.Size(241, 116);
+            this.ClearButton.Size = new System.Drawing.Size(295, 139);
             this.ClearButton.TabIndex = 10;
             this.ClearButton.Text = "Clear image";
             this.ClearButton.UseVisualStyleBackColor = false;
@@ -192,9 +202,10 @@
             // originalPictureBox
             // 
             this.originalPictureBox.Cursor = System.Windows.Forms.Cursors.Default;
-            this.originalPictureBox.Location = new System.Drawing.Point(12, 199);
+            this.originalPictureBox.Location = new System.Drawing.Point(15, 239);
+            this.originalPictureBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.originalPictureBox.Name = "originalPictureBox";
-            this.originalPictureBox.Size = new System.Drawing.Size(388, 276);
+            this.originalPictureBox.Size = new System.Drawing.Size(474, 331);
             this.originalPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.originalPictureBox.TabIndex = 12;
             this.originalPictureBox.TabStop = false;
@@ -204,9 +215,10 @@
             this.percentageLabel.AutoSize = true;
             this.percentageLabel.BackColor = System.Drawing.Color.White;
             this.percentageLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.percentageLabel.Location = new System.Drawing.Point(909, 89);
+            this.percentageLabel.Location = new System.Drawing.Point(1111, 107);
+            this.percentageLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.percentageLabel.Name = "percentageLabel";
-            this.percentageLabel.Size = new System.Drawing.Size(35, 29);
+            this.percentageLabel.Size = new System.Drawing.Size(39, 32);
             this.percentageLabel.TabIndex = 13;
             this.percentageLabel.Text = "%";
             // 
@@ -214,9 +226,10 @@
             // 
             this.DownloadResizedImage.BackColor = System.Drawing.Color.White;
             this.DownloadResizedImage.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.DownloadResizedImage.Location = new System.Drawing.Point(1101, 168);
+            this.DownloadResizedImage.Location = new System.Drawing.Point(1346, 202);
+            this.DownloadResizedImage.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.DownloadResizedImage.Name = "DownloadResizedImage";
-            this.DownloadResizedImage.Size = new System.Drawing.Size(241, 80);
+            this.DownloadResizedImage.Size = new System.Drawing.Size(295, 96);
             this.DownloadResizedImage.TabIndex = 14;
             this.DownloadResizedImage.Text = "Download";
             this.DownloadResizedImage.UseVisualStyleBackColor = false;
@@ -224,10 +237,10 @@
             // 
             // ParallelICustomImageScalerForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 24F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.PowderBlue;
-            this.ClientSize = new System.Drawing.Size(1361, 498);
+            this.ClientSize = new System.Drawing.Size(1663, 598);
             this.Controls.Add(this.DownloadResizedImage);
             this.Controls.Add(this.percentageLabel);
             this.Controls.Add(this.originalPictureBox);
@@ -241,6 +254,7 @@
             this.Controls.Add(this.ResizeSequentialButton);
             this.Controls.Add(this.ScaleFactorNumeric);
             this.Controls.Add(this.ChooseImageButton);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "ParallelICustomImageScalerForm";
             this.Text = "Custom Image Scaler";
             ((System.ComponentModel.ISupportInitialize)(this.ScaleFactorNumeric)).EndInit();

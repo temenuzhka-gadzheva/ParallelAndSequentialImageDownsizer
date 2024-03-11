@@ -9,7 +9,7 @@ namespace ParallelImageScalerApp
 {
     public partial class ParallelICustomImageScalerForm : Form
     {
-        private static readonly string allowedFileFormatsToUpload = "Allowed files to upload (*.jpg;*.jpeg;*.png;*.bmp)|*.jpg;*.jpeg;*.png;*.bmp";
+        private static readonly string allowedFileFormatsToUpload   = "Allowed files to upload (*.jpg;*.jpeg;*.png;*.bmp)|*.jpg;*.jpeg;*.png;*.bmp";
         private static readonly string allowedFileFormatsToDownload = "JPEG Image|*.jpeg;*.jpg|PNG Image|*.png|Bitmap Image|*.bmp|GIF Image|*.gif|TIFF Image|*.tiff";
         public ParallelICustomImageScalerForm()
         {
@@ -73,7 +73,7 @@ namespace ParallelImageScalerApp
             var newImageHeight              = (int)(originalImageHeight * scaleFactor);
 
             var originalImageAsBitmap       = (Bitmap)originalPictureBox.Image;
-            var resizedImageAsBitmap        = ParalDownsizer.ParallelDownsizer(originalImageAsBitmap, newImageWidth, newImageHeight);
+            var resizedImageAsBitmap        = ThreadedDownsizer.ParallelDownsizer(originalImageAsBitmap, newImageWidth, newImageHeight);
 
             stopwatch.Stop();
 
